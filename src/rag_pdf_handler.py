@@ -12,8 +12,8 @@ import streamlit as st
 import logging
 
 load_dotenv()
-os.environ["AZURE_OPENAI_API_KEY"] =  os.getenv("AZURE_OPENAI_API_KEY") 
-os.environ["AZURE_OPENAI_ENDPOINT"] = os.getenv("AZURE_OPENAI_ENDPOINT")
+# os.environ["AZURE_OPENAI_API_KEY"] =  os.getenv("AZURE_OPENAI_API_KEY") 
+# os.environ["AZURE_OPENAI_ENDPOINT"] = os.getenv("AZURE_OPENAI_ENDPOINT")
 
 def get_text_chunks_with_metadata(pdf_docs):  
     chunks = []  
