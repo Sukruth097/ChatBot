@@ -12,6 +12,7 @@ import streamlit as st
 import logging
 
 load_dotenv()
+
 # os.environ["AZURE_OPENAI_API_KEY"] =  os.getenv("AZURE_OPENAI_API_KEY") 
 # os.environ["AZURE_OPENAI_ENDPOINT"] = os.getenv("AZURE_OPENAI_ENDPOINT")
 
