@@ -16,4 +16,5 @@ tiktoken
 langchain-astradb
 langchain-openai
 faiss-cpu
+audio-recorder-streamlit==0.0.8
 # pypdf
