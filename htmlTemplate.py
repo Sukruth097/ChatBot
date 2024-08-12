@@ -36,8 +36,8 @@ def load_image_as_base64(image_path):
         encoded_image = base64.b64encode(image_file.read()).decode("utf-8")  
     return encoded_image  
   
-bot_image_base64 = load_image_as_base64("C:/Users/v-sukruthav/Downloads/llms/images/chat.jpg")  
-user_image_base64 = load_image_as_base64("C:/Users/v-sukruthav/Downloads/llms/images/chat1.jpg")  
+bot_image_base64 = load_image_as_base64("images/chat.jpg")  
+user_image_base64 = load_image_as_base64("images/chat1.jpg")  
   
 bot_template = f'''  
 <div class="chat-message bot">  
