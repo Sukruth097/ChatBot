@@ -55,7 +55,7 @@ def main():
     if default_api_key == "" or default_api_key is None :
         st.write("#")
         st.warning("⬅️ Please enter your Azure OpenAI API Endpoint and Key to continue...")
-    elif st.session_state.verification_status_code == 200 or st.session_state.verification_status_code == 202:
+    else: # st.session_state.verification_status_code == 200 or st.session_state.verification_status_code == 202:
         # st.write("Successfully established Azure OpenAI connection")
                 
         if "messages" not in st.session_state:
